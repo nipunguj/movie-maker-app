@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require('mongoose')
 const {graphqlHTTP} = require('express-graphql')
 
-mongoose.connect('mongodb+srv://gujarathinipun62:Abhini%4012345@movie-maker-app.spgm1my.mongodb.net/?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://gujarathinipun62:<password>@movie-maker-app.spgm1my.mongodb.net/?retryWrites=true&w=majority',{
     UseNewURLParser: true,
     UseUnifiedTopology: true
 }).then(()=>{
